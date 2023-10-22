@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font family  */
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+/* style */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  background-image: url("image/banner-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 829px;
+  position: inherit;
+  z-index: -1;
+}
+
+.header::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 829px;
+  background-color: rgba(208, 65, 71, 0.8);
+}
+.banner-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.logo img {
+  width: 200px;
+  height: 99px;
+}
+
+.menu ul li a {
+  color: white;
+}
+.menu ul li a:hover {
+  color: white;
+}
+
+.banner h1 {
+  font-size: 150px;
+  font-family: "Grand Hotel", cursive;
+  font-weight: 400;
+  color: #fff;
+}
+
+.banner p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.banner-button {
+  padding: 7px 44px;
+  border-radius: 30px;
+  font-size: 22px;
+  color: #ff5253;
+}
+
+/*  second banner  */
+
+.banner-section {
+  background-image: url("image/second-banner-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 929px;
+  position: relative !important;
+  z-index: -1;
+}
+
+.banner-section::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(233, 236, 236, 0.8);
+}
+
+.banner-section-page {
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.banner-section-page h1 {
+  font-size: 70px;
+  font-family: "Grand Hotel", cursive;
+  color: #fd4952;
+}
+.banner-section-page h2 {
+  /* font-size: 40px; */
+  font-family: "Grand Hotel", cursive;
+  color: #fd4952;
+}
+
+/* static section  */
+
+.static-bg {
+  background-image: url("image/static-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 829px;
+  position: relative;
+  z-index: -1;
+}
+.static-bg::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 829px;
+  background-color: rgba(208, 65, 71, 0.8);
+}
+
+.static-content {
+  position: absolute;
+  top: 220%;
+  left: 0;
+  right: 0;
+}
+
+.static-content h1 {
+  font-size: 90px;
+  font-family: "Grand Hotel", cursive;
+  color: #fff;
+}
+
+.static-border {
+  border: 3px dashed #fff;
+}
+.static-border:first-child {
+  padding: 52px 66px;
+}
+
+.static-border:nth-child(2n-2) {
+  padding: 52px 66px;
+}
+
+.static-border:last-child {
+  padding: 53px 43px;
+}
+
+.static-border h4 {
+  font-size: 70px;
+}
+
+.static-border h6 {
+  font-size: 60px;
+}
+.static-border h6:last-child {
+  font-size: 50px;
+}
+
+/*  menu section  */
+
+.menu-section {
+  background-color: rgb(241, 231, 204);
+}
+
+.m-heading {
+  font-size: 90px;
+  font-family: "Grand Hotel", cursive;
+  color: #fd4952;
+}
+
+.m-card h1 {
+  font-size: 34px;
+  font-family: "Grand Hotel", cursive;
+  color: #fd4952;
+}
+
+/* slide */
+.slide-size {
+  width: 100%;
+  height: 829px;
+}
+
+.slide-image {
+  background-image: url("image/slide-img.png");
+  background-repeat: no-repeat;
+  height: 829px;
+  position: relative;
+  z-index: -1;
+}
+
+.slide-image::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 829px;
+  background-color: rgba(208, 65, 71, 0.8);
+}
+
+.slide-content h1 {
+  font-size: 44px;
+  font-family: "Grand Hotel", cursive;
+  color: #fd4952;
+}
+
+.order-btn {
+  background-color: #fd4952;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 7px 44px;
+  border-radius: 30px;
+}
+
+/* package menu */
+.card-cl {
+  background-color: rgb(249, 246, 228);
+  width: 389px;
+  height: 493px;
+  border-radius: 16px;
+}
+
+.card-cl img {
+  width: 170px;
+  height: 170px;
+}
+.pm-content h1 {
+  font-size: 50px;
+  font-family: "Grand Hotel", cursive;
+  color: #fd4952;
+  font-weight: normal;
+}
+
+.pm-content .btn {
+  width: 312px;
+  height: 65px;
+  border-radius: 33px;
+  background-color: #eb4d55;
+}
+
+/* chief background */
+
+.chief-section .chief-bg {
+  background-image: url("image/chief-bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 829px;
+  position: relative;
+  z-index: -1;
+}
+
+.chief-section .chief-bg::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 829px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.chief-section .chief-content {
+  position: absolute;
+  top: 610%;
+  left: 0;
+  right: 0;
+}
+
+.chief-content p {
+  font-size: 50px;
+  color: #3d3d3d;
+  font-weight: bold;
+}
+
+.chief-content h1 {
+  font-size: 86px;
+  color: #eb4d55;
+  font-weight: 400;
+  font-family: "Grand Hotel", cursive;
+}
+
+/* subscribe section */
+
+.sub-sec {
+  background-color: #f9f6e4;
+}
+
+.sub-sec h1 {
+  font-size: 125px;
+  color: #eb4d55;
+  font-weight: 400;
+  font-family: "Grand Hotel", cursive;
+}
+
+.sub-sec p {
+  font-size: 30px;
+  color: #3d3d3d;
+  font-weight: 400;
+}
+
+.input-group {
+  width: 659px;
+  height: 43px;
+  background-color: #ffffff;
+  border-radius: 32px;
+  border: none !important;
+  border-radius: 23px !important;
+}
+
+.input-group-text {
+  background-color: #eb4d55;
+  border-radius: 23px !important;
+}
+
+footer {
+  background-color: #242525;
+}
+
+.first-footer h1 {
+  font-size: 54px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Grand Hotel", cursive;
+}
+
+.footer h1 {
+  font-size: 39px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Grand Hotel", cursive;
+}
+
+.footer a {
+  font-size: 20px;
+  line-height: 38px;
+  color: #ffffff;
+  font-weight: 400;
+  display: block;
+}
